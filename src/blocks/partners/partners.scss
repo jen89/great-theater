@@ -1,0 +1,51 @@
+.partners {
+	$self: &;
+	margin-top: 150px;
+
+	@media (max-width: 768px) {
+		margin-top: 90px;
+	}
+
+	@media (max-width: 576px) {
+		margin-top: 80px;
+	}
+
+	&__rows {
+		@media (max-width: 992px) {
+			overflow-x: auto;	
+			display: flex;
+			flex-wrap: wrap; 
+		}
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 80px;
+		
+		@media (max-width: 576px) {
+			margin-bottom: 40px;
+		}
+	}
+
+	&__row:last-child {
+		margin-bottom: 0;
+	}
+
+	&__item {
+		object-fit: cover;
+		width: 200px;
+		margin-right: 78px;
+		// width: calc(25% - 78px);	
+
+		@media (max-width: 576px) {
+			width: 130px;
+			margin-right: 48px;
+		}
+	}
+
+	&__logo:last-child {
+		margin-right: 0;
+	}
+
+}

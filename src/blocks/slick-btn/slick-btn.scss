@@ -1,0 +1,61 @@
+.slick-btn {
+	$self: &;
+	background: 0;
+	border: none;
+	color: $light-gray;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+	position: absolute;
+	bottom: -35px;
+
+	@media (max-width: 1280px) {
+		display: none !important;
+	}
+}
+
+.slick-next::after {
+	position: absolute;
+	left: 70px;
+	content: "";
+	background-image: url(images/in-arrow2.svg);
+	background-repeat: no-repeat;
+	width: 41px;
+	height: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 25px;
+	
+}
+
+.slick-next {
+	right: 175px;
+	
+	@media (max-width: 1440px) {
+		right: 90px;
+	}
+}
+
+.slick-prev {
+	right: 335px;
+	
+	@media (max-width: 1440px){
+		right: 240px;
+	}
+}
+
+.slick-prev::before {
+	content: "";
+	background-image: url(images/in-arrow1.svg);
+	background-repeat: no-repeat;
+	width: 41px;
+	height: 16px;
+	position: absolute;
+	right: 70px;
+	top: 50%;
+	transform: translateY(-50%);	
+	margin-right: 25px;
+}
+

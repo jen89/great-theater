@@ -1,0 +1,112 @@
+.header-aside {
+	$self: &;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	background: rgba(51, 51, 51, 0.75);
+	min-height: 1045px;
+	padding-bottom: 86px;
+
+	@media (max-width: 1440px) {
+		position: absolute;
+		left: 0;
+		top: -86px;
+	}
+
+	@media (max-width: 960px) {
+		display: none;
+		min-height: 800px;
+	}
+		
+	&__title-box {
+		padding-bottom: 160px;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 25px;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+	}
+
+	&__title::before {
+		content: "";
+		height: 80px;
+		width: 3px;
+		position: absolute;
+		background-color: $light-gray;
+		top: -120px;
+		right: 10px;
+	}
+
+	&__soc {
+		height: 174px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	&__soc-item {
+		display: flex;
+		justify-content: center;
+		width: 26px;
+		fill: rgba(255, 255, 255, 0.6);
+		
+		&--mobile {
+			width: 45px;
+			fill: #fff;
+		}
+	}
+
+	&__soc-icon {
+		display: block;
+		height: 26px;
+
+		&--fb {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 45px;
+			height: 45px;
+		}
+
+		&--inst {
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: block;
+			width: 45px;
+			height: 45px;
+		}
+
+		&--youtube {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			display: block;
+			width: 45px;
+			height: 45px;
+		}
+
+		&--vk {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			display: block;
+			width: 45px;
+			height: 45px;
+		}
+	}
+
+	&__soc-icon:hover {
+		fill: $gold;
+	}
+
+}
+
