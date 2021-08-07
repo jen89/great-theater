@@ -20,7 +20,6 @@
 	}
 
 	&__top {
-		
 		@media (max-width: 1440px) {
 			max-width: 1050px;
 			position: absolute;
@@ -107,7 +106,7 @@
 		}
 
 		@media (max-width: 640px) {
-			bottom: 50px;
+			bottom: 0;
 		}
 	}
 

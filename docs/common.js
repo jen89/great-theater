@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var slic
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("(function () {\n  $('a.perfomances__item-image').fancybox({});\n})();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYmxvY2tzL3BlcmZvbWFuY2VzL3BlcmZvbWFuY2VzLmpzPzcwZmIiXSwibmFtZXMiOlsiJCIsImZhbmN5Ym94Il0sIm1hcHBpbmdzIjoiQUFDQSxDQUFDLFlBQU07QUFDSEEsR0FBQyxDQUFDLDJCQUFELENBQUQsQ0FBK0JDLFFBQS9CLENBQXdDLEVBQXhDO0FBSUgsQ0FMRCIsImZpbGUiOiIuL3NyYy9ibG9ja3MvcGVyZm9tYW5jZXMvcGVyZm9tYW5jZXMuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbigoKSA9PiB7XG4gICAgJCgnYS5wZXJmb21hbmNlc19faXRlbS1pbWFnZScpLmZhbmN5Ym94KHtcblxuICAgIH0pO1xuXG59KSgpO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/blocks/perfomances/perfomances.js\n");
+eval("(function () {\n  $('a.perfomances__item-link').fancybox();\n})();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYmxvY2tzL3BlcmZvbWFuY2VzL3BlcmZvbWFuY2VzLmpzPzcwZmIiXSwibmFtZXMiOlsiJCIsImZhbmN5Ym94Il0sIm1hcHBpbmdzIjoiQUFBQSxDQUFDLFlBQU07QUFDSEEsR0FBQyxDQUFDLDBCQUFELENBQUQsQ0FBOEJDLFFBQTlCO0FBRUgsQ0FIRCIsImZpbGUiOiIuL3NyYy9ibG9ja3MvcGVyZm9tYW5jZXMvcGVyZm9tYW5jZXMuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyIoKCkgPT4ge1xuICAgICQoJ2EucGVyZm9tYW5jZXNfX2l0ZW0tbGluaycpLmZhbmN5Ym94KCk7XG5cbn0pKCk7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/blocks/perfomances/perfomances.js\n");
 
 /***/ }),
 

@@ -1,7 +1,4 @@
-
 (() => {
-    $('a.perfomances__item-image').fancybox({
-
-    });
+    $('a.perfomances__item-link').fancybox();
 
 })();
